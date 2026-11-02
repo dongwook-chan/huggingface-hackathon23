@@ -1,0 +1,69 @@
+::: {.content-visible when-profile="korean"}
+## 01_디스코드 참여
+
+해커톤에 오신 것을 환영합니다! 먼저 아래 링크를 통해 커뮤니티 서버에 오셔서 인사를 남겨주세요!
+
+::: {.callout-note appearance="simple"}
+[https://hf.co/join/discord](https://hf.co/join/discord)
+:::
+
+![](images/hf-server-first-steps.png)
+
+### 해커톤 채널이 안 보여요!
+
+서버에 처음 들어오셨다면, `Open Source ML` 역할을 추가하고 `krew23-hackathon` 채널에 참여하여 해커톤과 관련된 다양한 대화에 뛰어들 수 있습니다. 여러분의 참여가 이곳의 에너지와 창의성을 한층 더 끌어올릴 것입니다.
+![](images/get-roles.png)
+
+### 첫 메시지는 무엇이 좋을까요?
+
+커뮤니티와의 첫 인사는 깊은 인상을 남기기에 충분합니다. `krew23-hackathon` 채널에서 자신을 소개하며 시작해보세요. 본인의 전문 분야, 해커톤에서 이루고자 하는 목표, 그리고 함께하고 싶은 팀원의 조건 등을 말해주시면 다른 참가자들이 여러분을 더 잘 이해할 수 있습니다.
+![](images/introduce-yourself.png)
+
+또한, 다른 참가자들의 스레드에 적극적으로 참여하세요. 아이디어에 당신의 피드백을 공유하고, 함께 프로젝트를 만들어나가는 과정에서 서로의 생각을 충분히 교환하세요.
+
+### 더 궁금하신 점이 있으신가요?
+
+언제든지 궁금한 점이 생기면 아래 운영진에게 문의하여 즉각적인 도움을 받을 수 있습니다.
+
+- @wonhseo
+- @gabriely1004
+- @jungnerd
+
+이제, 여러분은 해커톤의 중심지인 이 커뮤니티의 일원입니다. 여러분의 참여와 소통이 이 커뮤니티를 더욱 풍요롭게 만든다는 점, 잊지 말아주세요. 여러분의 새로운 도전을 응원합니다!
+:::
+
+::: {.content-visible when-profile="english"}
+## 01_Joining Discord
+
+Welcome to the hackathon! First things first, please follow the link below to join our community server and drop a greeting!
+
+::: {.callout-note appearance="simple"}
+[https://hf.co/join/discord](https://hf.co/join/discord)
+:::
+
+![](images/hf-server-first-steps.png)
+
+### I Can't See the Hackathon Channel!
+
+If you're new to the server, you’ll need to add the `Open Source ML` role to dive into the diverse conversations happening in the `krew23-hackathon` channel. Your involvement will undoubtedly elevate the energy and creativity here.
+
+![](images/get-roles.png)
+
+### What Should Be My First Message?
+
+Your initial engagement with the community can leave a lasting impression. Start by introducing yourself in the `krew23-hackathon` channel. Sharing your expertise, objectives for this hackathon, and the qualities you’re seeking in potential team members can help others understand and connect with you better.
+
+![](images/introduce-yourself.png)
+
+Additionally, don’t hesitate to contribute to other participants' threads. Share your feedback on their ideas and engage in thorough exchanges of thoughts as you collaborate on projects.
+
+### Any Further Questions?
+
+Should you have any inquiries, feel free to reach out directly to the administrators listed below for immediate assistance.
+
+- @wonhseo
+- @gabriely1004
+- @jungnerd
+
+Now, you are an integral part of this hackathon's epicenter, the community. Never underestimate how your participation and communication enrich this communal experience. We support your new venture wholeheartedly!
+:::

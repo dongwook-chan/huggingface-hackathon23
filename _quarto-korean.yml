@@ -1,8 +1,18 @@
 project:
   title: "2023 일상에서의 AI 해커톤"
-  output-dir: ./_site/ko
+  output-dir: ./docs/ko
 
 website:
+  favicon: favicon.ico
+  open-graph:
+    title: "2023 일상에서의 AI 해커톤"
+    description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
+    image: assets/images/hackathon-960x540.png
+  twitter-card:
+    title: "2023 일상에서의 AI 해커톤"
+    description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
+    image: assets/images/hackathon-960x540.png
+  google-analytics: "G-HMKJZ8LF1Y"
   page-navigation: true
   site-url: https://pseudo-lab.github.io/huggingface-hackathon23
   page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
@@ -12,38 +22,36 @@ website:
     </button>
 
   navbar:
+    logo: assets/images/navbar-logo.png
+    title: " "
     search: true
     left:
       - text: 소개
-        file: about.qmd
-      - text: 운영안내
-        file: logistics/index.qmd
-      - text: 튜토리얼
-        file: tutorials/index.qmd
-      - text: 제출하기
-        file: submit.qmd
+        file: index.qmd
+      - icon: bookmark-star
+        text: "발표자료"
+        file: presentations/index.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        href: https://github.com
+      - icon: discord
+        href: https://hf.co/join/discord
+        target: blank
 
   sidebar:
-    - title: 운영 안내
+    - id: korean
+      # logo: assets/images/poster.png
+      pinned: true
+      align: center
+
       style: floating
       contents:
-        - text: 주요 안내사항
-          file: logistics/index.qmd
-        - text: 팀 결성 방법
-          file: logistics/how-to-form-teams.qmd
-        - text: 사전준비 사항
-          file: logistics/prerequisites.qmd
+        - index.qmd
+        - section: "튜토리얼"
+          contents: tutorials/*
 
-    - title: 튜토리얼
-      contents:
-        - text: 개요
-          file: tutorials/index.qmd 
-      
+
+
+
+
 format:
   html:
     theme:
@@ -53,6 +61,10 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" type="text/css"/>
+
+mainfont: Pretendard
 
 filters:
   - include-files.lua

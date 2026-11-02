@@ -1,0 +1,239 @@
+---
+format:
+  html:
+    include-in-header: ./includes.html
+---
+
+::: {.content-visible when-profile="korean"}
+## 소개
+
+안녕하세요!
+
+본 해커톤은 Hugging Face를 사랑하는 모든 분들을 위한 행사로 여러분의 열정과 창의력을 마음껏 펼칠 수 있는 자리입니다. 아래 안내사항을 주의 깊게 읽어보시고, 이번 행사를 통해 함께 성장하는 시간을 가져보시기 바랍니다.
+
+### 1. 어떻게 진행하나요?
+
+해커톤에 참여하는 과정은 간단합니다! 아래 4단계를 차근차근 따라와 주세요:
+
+```{=html}
+<div class='app-layout'>
+  <a class='box' id='g1' href="./tutorials/discord.html">
+    <i class="bi bi-1-circle"></i>
+    <br>
+    디스코드 참여
+  </a>
+  <a class='box' id='g2' href="./tutorials/hf_hub.html">
+    <i class="bi bi-2-circle"></i>
+    <br>
+    프로젝트 생성
+  </a>
+  <a class='box' id='g3' href="./tutorials/pr_guide.html">
+    <i class="bi bi-3-circle"></i>
+    <br>
+    기여 및 제출
+  </a>
+  <a class='box' id='g4'>
+    <i class="bi bi-4-circle"></i>
+    <br>
+    수료와 그 이후
+    <br>
+    (예정)
+  </a>
+</div>
+```
+
+- **디스코드 참여**: 해커톤의 소식을 접하고, 함께할 팀을 구성하거나 친구들을 만날 수 있는 디스코드 커뮤니티에 참여해보세요!
+- **프로젝트 생성**: [PseudoLab 조직](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku)에 프로젝트 데모를 업로드하고, 세계에 여러분의 창의력을 보여주세요!
+- **기여 및 제출**: 프로젝트를 발전시키고, Hub에서 Pull Request를 통해 모두와 아이디어를 공유하며 같이 배워가세요. 여러분의 성장이 커뮤니티의 힘이 됩니다. [리더보드](https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification)로 얼마나 인기 있는지도 확인할 수 있답니다!
+- **수료와 그 이후**: 해커톤을 성공적으로 마친 후, 오프라인에서도 만나고 싶다면 [이벤터스](https://event-us.kr/huggingfacekrew/event/72612)에서 팀 정보와 프로젝트 URL을 제출하고, 참가 확정 메일을 기다려주세요!
+
+::: {.callout-note appearance="simple"}
+- 타인의 작업을 무단으로 사용하는 경우 제출 작품은 무효 처리되며,
+- 프로젝트에 대한 설명과 데모는 성의 있게 작성해주셔야 합니다.
+:::
+
+### 2. 보상 및 혜택
+
+- HF 크레딧 지원 (~11월 11일까지)
+- 해커톤 완주 수료증 ([예시](https://huggingface.co/datasets/pseudolab/huggingface-krew-hackathon2023/resolve/main/certificates/wseo.pdf))
+- 다양한 네트워킹 기회
+- 오프라인 행사 초청자에게 제공되는 특별한 혜택 (상세 내용은 추후 공개 예정)
+
+### 3. 오프라인 행사
+
+신청자 중 "Like"를 많이 받은 프로젝트 기여자들을 PseudoCon에 초대하여 데모를 서로 공유하고 네트워킹할 수 있는 시간을 가집니다. 상세한 내용은 [오프라인 행사 신청 페이지](https://event-us.kr/huggingfacekrew/event/72612)에서 확인하실 수 있습니다.
+
+### 4. 주요 일정
+
+| 일정                    | 날짜   |
+|-------------------------|-------|
+| 해커톤 시작      | 10월 20일(금) |
+| 수료증 발급 마감  | 11월 10일(금) 24시                  |
+| 개별 오프라인 초대 | 11월 6일(월) ~ 11월 9일(목)       |
+| Hugging Face 로컬 밋업 w/ PseudoCon | 11월 11일 (토)    |
+
+```{=html}
+<add-to-calendar-button
+  name="Hugging Face KREW 2023 Hackathon: Everyday AI"
+  location="Online"
+  timeZone="Asia/Seoul"
+  dates='[
+    {
+      "name":"KREW 2023 해커톤 시작",
+      "description":"온라인으로 진행되는 해커톤의 시작입니다",
+      "startDate":"2023-10-20"
+    },
+    {
+      "name":"수료증 발급 마감",
+      "description":"11월 10일까지 수료증을 다음 링크에서 꼭 받으세요! [url]https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification[/url]",
+      "startDate":"2023-11-10"
+    },
+    {
+      "name":"개별 오프라인 초대 시작",
+      "description":"수료증 url, 팀 정보와 연락처를 다음 이벤터스 링크에 등록해주시면 개별적으로 연락 드리겠습니다! [url]https://event-us.kr/huggingfacekrew/event/72612[/url]",
+      "startDate":"2023-11-06"
+    },
+    {
+      "name":"Hugging Face 로컬 밋업 w/ PseudoCon",
+      "description":"모두 워커힐에서 만나요!",
+      "startDate":"2023-11-11",
+      "startTime":"14:00",
+      "endTime":"18:00",
+      "location":"워커힐 컨벤션 센터"
+    }
+  ]'
+  options="'Apple','Google'"
+  hideBackground="True"
+  buttonStyle="round"
+></add-to-calendar-button>
+```
+
+### 5. 대회 목표
+
+`일상에서의 AI 해커톤`은
+
+- 사전 경험과 관계없이 모든 분들이 참여할 수 있고,
+- 서로 배우며 성장할 수 있는 커뮤니티를 만드는 것에
+
+큰 중점을 두고 있습니다. 제공된 `krew23-hackathon` 스레드에서  함께 창의적인 아이디어를 공유하고 실력을 향상시킬 수 있습니다.
+
+참가자 여러분의 많은 관심과 참여를 부탁드립니다. 함께 성장하고, 서로를 격려하는 커뮤니티를 만들어가요. 감사합니다.
+
+<!-- END OF KOREAN -->
+:::
+
+::: {.content-visible when-profile="english"}
+## Introduction
+
+Welcome to the Hugging Face KREW Hackathon!
+
+This hackathon is for everyone who shares a love for Hugging Face, a platform to showcase your passion and creativity. Please read through the guidelines carefully and join us in this journey of collective growth.
+
+### 1. How Does It Work?
+
+Participating in the hackathon is easy! Just follow these 4 steps carefully:
+
+```{=html}
+<div class='app-layout'>
+  <a class='box' id='g1' href="./tutorials/discord.html">
+    <i class="bi bi-1-circle"></i>
+    <br>
+    Join Discord
+  </a>
+  <a class='box' id='g2' href="./tutorials/hf_hub.html">
+    <i class="bi bi-2-circle"></i>
+    <br>
+    Create a Project
+  </a>
+  <a class='box' id='g3' href="./tutorials/pr_guide.html">
+    <i class="bi bi-3-circle"></i>
+    <br>
+    Contribute & Submit
+  </a>
+  <a class='box' id='g4'>
+    <i class="bi bi-4-circle"></i>
+    <br>
+    Completion & Beyond
+    <br>
+    (in writing)
+  </a>
+</div>
+```
+
+- **Join Discord**: Stay updated with the hackathon news, form a team, or meet new friends by joining our vibrant Discord community!
+- **Create a Project**: Upload your working project demo to the [PseudoLab Organization](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku), and showcase your creativity to the world!
+- **Contribute & Submit**: Enhance your project, share ideas through Pull Requests on the Hub, and learn along with the community. Your growth empowers the community. Check your popularity on the [Leaderboard](https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification)!
+- **Completion & Beyond**: After successfully finishing the hackathon, if you wish to meet in person, submit your team information and project URL through [Event-us](https://event-us.kr/huggingfacekrew/event/72612), and await the confirmation email!
+
+::: {.callout-note appearance="simple"}
+- Unauthorized use of someone else’s work will result in disqualification.
+- Ensure that your project description and demo are descriptive.
+:::
+
+### 2. Rewards & Benefits
+
+- Support with HF credits (until November 11)
+- Hackathon completion certificate ([example](https://huggingface.co/datasets/pseudolab/huggingface-krew-hackathon2023/resolve/main/certificates/wseo.pdf))
+- Numerous networking opportunities
+- Exclusive perks for offline event attendees (details to be announced)
+
+### 3. Offline Event
+
+Contributors with the most "Likes" on their projects will be invited to PseudoCon, where you can share demos and network. More details are available on the [offline event application page](https://event-us.kr/huggingfacekrew/event/72612).
+
+### 4. Key Dates
+
+| Schedule                 | Date        |
+|--------------------------|-------------|
+| Hackathon Starts         | October 20 (Fri) |
+| Certificate Issuance Deadline | November 10 (Fri) Midnight |
+| Individual Offline Invites | November 6 (Mon) - November 9 (Thurs) |
+| Hugging Face Local Meetup w/ PseudoCon | November 11 (Sat) |
+
+```{=html}
+<add-to-calendar-button
+  name="Hugging Face KREW 2023 Hackathon: Everyday AI"
+  location="Online"
+  timeZone="Asia/Seoul"
+  dates='[
+    {
+      "name":"Start of KREW 2023 Hackathon",
+      "description":"This is the start of your Hackathon journey",
+      "startDate":"2023-10-20"
+    },
+    {
+      "name":"KREW Certification Deadline",
+      "description":"Don't forget to get certified before the offline event on Nov 11th! [url]https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification[/url]",
+      "startDate":"2023-11-10"
+    },
+    {
+      "name":"Individual Offline Invites",
+      "description":"We will contact you directly after you leave your certificate url, team info and email in the following eventus link. [url]https://event-us.kr/huggingfacekrew/event/72612[/url]",
+      "startDate":"2023-11-06"
+    },
+    {
+      "name":"Local Hugging Face Meetup w/ PseudoCon",
+      "description":"See you in Walkerhill!",
+      "startDate":"2023-11-11",
+      "startTime":"14:00",
+      "endTime":"18:00",
+      "location":"Walkerhill Hotel Convention Center"
+    }
+  ]'
+  options="'Apple','Google'"
+  hideBackground="True"
+  buttonStyle="round"
+></add-to-calendar-button>
+```
+
+### 5. Hackathon Goals
+
+The `Everyday AI Hackathon` emphasizes:
+
+- Participation from everyone, regardless of prior experience,
+- Creating a community where we can all learn and grow together.
+
+Let's engage in the `krew23-hackathon` thread, sharing creative ideas, and enhancing our skills.
+
+We count on your active interest and participation. Let's build a supportive community that grows and encourages together. Thank you!
+:::

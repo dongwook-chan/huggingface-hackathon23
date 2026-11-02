@@ -1,0 +1,133 @@
+::: {.content-visible when-profile="korean"}
+## 02_프로젝트 생성
+
+이제 본격적으로 해커톤 여정을 시작해봅시다! 이번 해커톤에서는 각자의 뛰어난 아이디어와 프로젝트를 `Hugging Face KREW Hackathon 2023` 컬렉션에 등록하여 전 세계 사람들과 공유하는 기회를 갖게 됩니다.
+
+```{shell}
+"Hugging Face KREW Hackathon 2023" (collection)
+    ├── 참가자프로젝트(1) (space)
+    ├── ...
+    ├── 참가자프로젝트(n-1) (model)
+    └── 참가자프로젝트(n) (dataset)
+```
+
+### Hugging Face 가입
+
+시작하기 전에, [hf.co/join](https://hf.co/join) 링크를 통해 Hugging Face에 가입하시고, 전 세계적인 커뮤니티의 일원이 되어 주세요. 간단한 회원 가입 과정을 거치면 됩니다.
+
+![](images/join-huggingface.png){fig-align="center"}
+
+### Pseudo Lab 기여자 등록
+
+회원 가입을 마친 후, [기여자 등록](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku) 페이지로 이동하여 'Pseudo Lab'의 프로젝트에 기여할 수 있는 권한을 얻으세요. 여러분의 아이디어가 빛을 발할 수 있는 공간을 제공합니다.
+
+![](images/join-pseudolab.png){fig-align="center"}
+
+### 바로 프로젝트 생성해보기
+
+`Pseudo Lab` 조직 내에서 `New` 버튼을 눌러 새로운 `Space`를 시험삼아 만들어보세요. 여기서 `Space name`은 여러분의 프로젝트를 대표할 이름을 사용해 주세요. 라이선스 선택 부분에서는 "[Apache 2.0 License](https://www.olis.or.kr/license/Detailselect.do?lId=1002)"를 추천합니다.
+
+![](images/paste-2.png){fig-align="center"}
+
+![](images/paste-4.png){fig-align="center"}
+
+프로젝트를 실제로 작동시킬 설정도 중요합니다. `SDK` 옵션에서는 특히 초보자분들께 `Gradio`를 추천드려요. 사용하기 쉽고, 다양한 예제를 통해 빠르게 배울 수 있습니다. 그리고 하드웨어는 기본적으로 제공되는 무료 CPU 자원을 사용하되, 필요에 따라 추가적인 `GPU` 자원을 요청할 수도 있어요. 하지만, 모든 참가자가 자원을 공유해야 하니 꼭 필요한 경우에만 요청해 주세요!
+
+![](images/paste-6.png){fig-align="center"}
+
+::: {.callout-note appearance="simple"}
+-   고급 GPU 하드웨어 자원을 사용하면 해커톤 전체 Credit이 소모됩니다.
+-   다른 참가자를 배려한 효율적인 사용 부탁드립니다.
+:::
+
+### 기존 프로젝트 가져오기
+
+개인 스페이스에서 프로젝트를 먼저 시작한 경우에도 걱정하지 마세요. 스페이스를 복제한 후, 소유권을 `pseudolab`으로 변경하면 동일하게 리더보드에서 보실 수 있습니다.
+
+![](images/paste-15.png) ![](images/paste-17.png)
+
+### README 파일 작성하기
+
+프로젝트의 README 파일은 누구나 프로젝트를 쉽게 이해할 수 있도록 상세하게 작성해야 해요. 프로젝트의 목적, 사용된 기술, 주요 변경 사항 등을 포함하여, 충분한 정보를 제공해 주세요.
+다른 참가자들이 더욱 더 흥미롭게 즐길 수 있을 거에요!
+
+마지막으로 `pinned` 항목을 `false`로 설정해주세요. 공정한 평가를 위함이며, 홍보는 (sns 등) 다른 채널을 통해 해주시길 바랍니다.
+
+``` {.md filename="README.md"}
+title: 'My Project'
+emoji: 🌌
+colorFrom: purple
+colorTo: yellow
+sdk: gradio
+sdk_version: 3.36.1
+app_file: app.py
+pinned: false
+```
+:::
+
+::: {.content-visible when-profile="english"}
+## 02_Creating a Project
+
+Let's kickstart your journey through the hackathon! In this hackathon, you will have the opportunity to register your innovative ideas and projects in the `Hugging Face KREW Hackathon 2023` collection, and share them with both the local and global audience via a wall of fame in our offline event and community blog post on Hugging Face.
+
+```{shell}
+"Hugging Face KREW Hackathon 2023" (collection)
+    ├── ParticipantProject(1) (space)
+    ├── ...
+    ├── ParticipantProject(n-1) (model)
+    └── ParticipantProject(n) (dataset)
+```
+
+### Registering with Hugging Face
+
+Before you begin, sign up with Hugging Face through this link: [hf.co/join](https://hf.co/join). Become part of a global community by completing a simple registration process.
+
+![](images/join-huggingface.png){fig-align="center"}
+
+### Enrolling as a Pseudo Lab Contributor
+
+After signing up, proceed to the [Contributor Registration](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku) page and gain access to 'Pseudo Lab' projects. This platform is where your ideas will shine.
+
+![](images/join-pseudolab.png){fig-align="center"}
+
+### Directly Creating Your Project
+
+Try creating a new `Space` by clicking the `New` button within the `Pseudo Lab` organization. For the `Space name`, use something representative of your project. In the license selection, we recommend the "[Apache 2.0 License](https://www.olis.or.kr/license/Detailselect.do?lId=1002)."
+
+![](images/paste-2.png){fig-align="center"}
+
+![](images/paste-4.png){fig-align="center"}
+
+Configuring your project for actual deployment is crucial. In the `SDK` options, we particularly recommend `Gradio` for beginners. It's user-friendly, offering various examples for quick learning. While the basic free CPU resources are provided for hardware, you can request additional `GPU` resources if necessary. However, please make such requests only when essential, as all participants share these resources!
+
+![](images/paste-6.png){fig-align="center"}
+
+::: {.callout-note appearance="simple"}
+-   Using advanced GPU hardware resources will consume the overall hackathon Credit.
+-   We request efficient usage with consideration for other participants.
+:::
+
+### Importing an Existing Project
+
+If you've already initiated a project in your personal account, no need to worry. You can clone the repo, change the ownership to `pseudolab`, and it will show up in our leaderboard!
+
+![](images/paste-15.png) ![](images/paste-17.png)
+
+### Crafting a README
+
+The project's README file should be meticulously crafted to ensure that anyone can easily comprehend the project. It should provide ample information about the project, including its objectives, the technologies employed, key changes, among other pertinent details.
+Other participants will definitely appreciate your gesture!
+
+Lastly set the `pinned` argument to `false`. We want a fair review process among participants, so please promote your work through other options (such as sns).
+
+``` {.md filename="README.md"}
+title: 'My Project'
+emoji: 🌌
+colorFrom: purple
+colorTo: yellow
+sdk: gradio
+sdk_version: 3.36.1
+app_file: app.py
+pinned: false
+```
+:::

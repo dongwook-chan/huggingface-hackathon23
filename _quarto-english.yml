@@ -1,8 +1,18 @@
 project:
   title: "2023 Everyday AI Hackathon"
-  output-dir: ./_site/ko
+  output-dir: ./docs/en
 
 website:
+  favicon: favicon.ico
+  open-graph:
+    title: "2023 Everyday AI Hackathon"
+    description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
+    image: assets/images/hackathon-960x540.png
+  twitter-card:
+    title: "2023 Everyday AI Hackathon"
+    description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
+    image: assets/images/hackathon-960x540.png
+  google-analytics: "G-HMKJZ8LF1Y"
   page-navigation: true
   site-url: https://pseudo-lab.github.io/huggingface-hackathon23/
   page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
@@ -12,60 +22,41 @@ website:
     </button>
 
   navbar:
+    logo: assets/images/navbar-logo.png
+    title: " "
     search: true
     left:
       - text: About
-        file: about.qmd
-      - text: Apply
-        file: apply.qmd
-      - text: Logistics
-        file: logistics/index.qmd
-      - text: Tutorial
-        file: tutorials/index.qmd
-      - text: Projects
-        file: projects/index.qmd
+        file: index.qmd
+      - icon: bookmark-star
+        text: "Presentations"
+        file: presentations/index.qmd
     tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        href: https://github.com
+      - icon: discord
+        href: https://hf.co/join/discord
+        target: blank
 
   sidebar:
-    - title: About
+    - id: english
+      # logo: assets/images/poster.png
+      pinned: true
+      align: center
+
       style: floating
       contents:
-        - text: About the hackathon
-          file: about.qmd
-        - text: Organizers
-          file: organizers.qmd
-        - text: Code of conduct
-          file: code-of-conduct.qmd
+        - text: "Introduction"
+          file: index.qmd
+        - section: Tutorials
+          contents:
+            - text: "01_Joining Discord"
+              file: tutorials/discord.qmd
+            - text: "02_Creating a Project"
+              file: tutorials/hf_hub.qmd
+            - text: "03_Contributions and Submissions"
+              file: tutorials/pr_guide.qmd
 
-    - title: Logistics
-      contents:
-        - text: Main Guidelines
-          file: logistics/index.qmd
-        - text: How to Form teams
-          file: logistics/how-to-form-teams.qmd
-        - text: Pre-requisites
-          file: logistics/prerequisites.qmd
 
-    - title: Tutorial
-      contents:
-        - text: Begin
-          file: tutorials/index.qmd
-        - text: Setup your environment
-          file: tutorials/00_Setup.md
 
-    - title: Projects
-      contents:
-        - text: How to submit
-          file: projects/index.qmd
-        - text: 7th PseudoCon (Offline)
-          file: projects/offline.qmd
-        - text: Completed Projects
-          file: projects/hackathon-projects.md
-      
 format:
   html:
     theme:
@@ -75,6 +66,10 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" type="text/css"/>
+
+mainfont: Pretendard
 
 filters:
   - include-files.lua
